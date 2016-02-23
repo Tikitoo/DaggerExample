@@ -30,5 +30,7 @@
     <string name="title_activity_main">Dagger Example</string>
     <string name="username_error">Username cannot be empty</string>
     <string name="password_error">Password cannot be empty</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_demo">DemoActivity</string>
 
 </resources>

@@ -43,11 +43,13 @@ public class LoginActivity extends BaseActivity implements LoginView, View.OnCli
 
     @Override
     protected void setupComponent(AppComponent appComponent) {
-        DaggerLoginComponent.builder()
+        LoginComponent component = DaggerLoginComponent.builder()
                 .appComponent(appComponent)
                 .loginModule(new LoginModule(this))
-                .build()
-                .inject(this);
+                .build();
+
+        component.inject(this);
+        presenter = component.getLoginPresenter();
     }
 
     @Override

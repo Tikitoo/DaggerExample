@@ -1,4 +1,4 @@
-DaggerExample
+DaggerExample(https://github.com/google/dagger)
 =============
 
 Android project using Dagger library. This code was created to support this set of articles:

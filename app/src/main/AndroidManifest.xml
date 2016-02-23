@@ -17,14 +17,13 @@
   ~  *  * limitations under the License.
   ~  *
   ~  */
-  -->
-
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.antonioleiva.daggerexample.app">
+-->
+<manifest package="com.antonioleiva.daggerexample.app"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:allowBackup="true"
         android:name=".App"
+        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
@@ -40,6 +39,14 @@
         <activity
             android:name=".ui.main.MainActivity"
             android:label="@string/title_activity_main">
+        </activity>
+        <activity
+            android:name=".ui.test.TestActivity"
+            android:label="@string/title_activity_test">
+        </activity>
+        <activity
+            android:name=".ui.test.DemoActivity"
+            android:label="@string/title_activity_demo">
         </activity>
     </application>
 
